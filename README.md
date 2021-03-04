@@ -6,7 +6,7 @@ Steps to configure this project into your system.
 	
 2. Open Git Bash and clone this repository in a directory using the command
 
-  	    git clone https://github.com/Nivedita01/docker_assessment.git
+  	    git clone https://github.com/Nivedita01/imdb_assessment.git
 	
 3. Once the project is cloned, open the project location in windows command prompt.
 

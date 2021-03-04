@@ -19,5 +19,6 @@ Steps to configure this project into your system.
 	   pip install -r requirements.txt
 
 6. Run test suite using the command
-	a.	pytest Tests/test_CreateAccountPage.py
-	b.	pytest Tests/test_UserHomePage.py
+
+		a.	pytest Tests/test_CreateAccountPage.py
+		b.	pytest Tests/test_UserHomePage.py

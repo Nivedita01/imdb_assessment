@@ -1,13 +1,23 @@
-Download the folder into local system.
+Steps to configure this project into your system.
 
-Open command prompt and navigate to the directory where the code is installed.
+	1. Install Git if you don’t have in your system from the site:
 
-Activate your virtual environment using 
-	.\venv\Scripts\activate
+  	https://git-scm.com/download/win
+	
+	2. Open Git Bash and clone this repository in a directory using the command
 
-Install libraries from requirements.txt using 
-	pip install -r requirements.txt
+  	git clone https://github.com/Nivedita01/docker_assessment.git
+	
+	3. Once the project is cloned, open the project location in windows command prompt.
 
-Run test_CreateAccountPage.py first followed by test_UserHomePage.py
-  a.	pytest Tests/test_CreateAccountPage.py
-  b.	pytest Tests/test_UserHomePage.py
+	4. Open terminal and activate virtual environment using the command
+
+   	.\venv\Scripts\activate
+
+	5. Install requirements.txt on this virtual environment using the command
+
+	   pip install -r requirements.txt
+
+	6. Run test suite using the command
+	a.	pytest Tests/test_CreateAccountPage.py
+	b.	pytest Tests/test_UserHomePage.py

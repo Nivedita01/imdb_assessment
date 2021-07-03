@@ -2,6 +2,8 @@ class TestData:
     CHROME_EXECUTABLE_PATH = "drivers\\chromedriver.exe"
     FIREFOX_EXECUTABLE_PATH = "drivers\\geckodriver.exe"
 
+    CHROME_EXECUTABLE_PATH_MAC = "/Users/NHari/Desktop/chromedriver"
+
     HOME_URL = "https://www.imdb.com/"
 
     SIGN_IN_OPTIONS_PAGE_TITLE = "Sign in with IMDb - IMDb"

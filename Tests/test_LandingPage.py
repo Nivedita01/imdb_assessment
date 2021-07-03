@@ -12,4 +12,4 @@ class TestLandingPage(TestBasePage):
         self.landingPage = LandingPage(self.driver)
         signin_options_page = self.landingPage.click_signin_button()
         title = signin_options_page.get_login_page_title()
-        assert title == TestData.SIGN_IN_PAGE_TITLE
+        assert title == TestData.SIGN_IN_OPTIONS_PAGE_TITLE
